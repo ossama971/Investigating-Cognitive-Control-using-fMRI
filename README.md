@@ -19,9 +19,7 @@ This report presents a detailed analysis of the Flanker Dataset using functional
 - [Results and Interpretation](#results-and-interpretation)
 - [Discussion](#discussion)
 - [Conclusion](#conclusion)
-- [References](#references)
-- [Submission](#submission)
-- [Scripts](#scripts)
+- [References](#references
 
 
 ## Introduction
