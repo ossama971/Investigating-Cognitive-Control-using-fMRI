@@ -115,3 +115,23 @@ Despite indirect relationships observed, the study provides valuable insights in
 Kelly, A.M., Uddin, L.Q., Biswal, B.B., Castellanos, F.X., Milham, M.P. (2008). Competition between functional brain networks mediates behavioral variability. Neuroimage, 39(1):527-37
 - Soares JM, Magalhães R, Moreira PS, Sousa A, Ganz E, Sampaio A, Alves V, Marques P and Sousa N (2016) A Hitchhiker’s Guide to Functional Magnetic Resonance Imaging. Front. Neurosci. 10:515. doi: 10.3389/fnins.2016.00515
 - AndysBrainBook website (https://andysbrainbook.readthedocs.io/en/latest/)
+
+## Contributors <a name = "Contributors"></a>
+
+<table>
+  <tr>
+     <td align="center">
+    <a href="https://github.com/ahmedalii3" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/110257687?v=4" width="150px;" alt="Ahmed Ali"/>
+    <br />
+    <sub><b>Ahmed Ali</b></sub></a>
+    </td>
+<td align="center">
+    <a href="https://github.com/ossama971" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/40814982?v=4" width="150px;" alt="Hassan Hussein"/>
+    <br />
+    <sub><b>Osama Badawi</b></sub></a>
+    </td>
+      </tr>
+ </table>
+
