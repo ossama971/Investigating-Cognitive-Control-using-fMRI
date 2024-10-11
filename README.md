@@ -66,32 +66,45 @@ Regions of interest (ROIs) were identified and confirmed using a confirmation te
 
 ## Results and Interpretation
 
-### Lateral Occipital Cortex, Inferior Division
-![Lateral Occipital Cortex, Inferior Division](assets/images/Lateral_Occipital_Cortex_Inferior_Division.png)<br>
-Figure 2, Lateral Occipital Cortex, Inferior Division
+### Postcentral Gyrus
+Activation in the postcentral gyrus suggests that sensory processing is actively engaged during both congruent and incongruent stimuli. This area plays a key role in processing the sensory information needed for responding to the presented stimuli, contributing to the participants' ability to perform the task accurately.
+![image](https://github.com/user-attachments/assets/3f52d5d5-7b49-428a-97e7-442402435d82)
 
-- To decrease false positives, Eklund (2016) suggested accepting only P-values < 0.001.
-- Lateral Occipital Cortex, Inferior Division: Associated with visual processing, object recognition, and scene perception.
-- Flanker Task: Focuses on cognitive control. However, participants still engage early visual areas while processing visual stimuli.
 
-### Lateral Occipital Cortex, Superior division
-![Lateral Occipital Cortex, Superior Division](assets/images/Lateral_Occipital_Cortex_Superior_Division.png)<br>
-Figure 3, Lateral Occipital Cortex, Superior Division
+### Insular Cortex
+The insular cortex exhibited activation, potentially reflecting the emotional and interoceptive processing that occurs during the task. This region's involvement may indicate that subjects experience subtle emotional responses or bodily sensations even in the context of both congruent and incongruent stimuli.
 
-- Lateral Occipital Cortex, Superior division: Associated with visual motion information.
-- Flanker Task: Focuses on cognitive control. However, participants still process visual motion information while processing visual stimuli.
+### Cingulate Gyrus
+The activation of the cingulate gyrus highlights its role in attentional control and performance monitoring. This region's engagement suggests that participants are actively maintaining attention and monitoring their performance to ensure accuracy in responding to both congruent and incongruent stimuli.
+![image](https://github.com/user-attachments/assets/b9913525-612c-4e31-ab5e-051b0111bd2c)
 
-### Precentral Gyrus
-![Precentral Gyrus](assets/images/Precentral_Gyrus.png)<br>
-Figure 4, Precentral Gyrus
 
-- Precentral Gyrus: Associated with motor control and movement initiation.
-- Flanker Task: Requires cognitive control. Participants inhibit responses, supported by regions like the dorsolateral prefrontal cortex, which communicate with the precentral gyrus for motor execution, emphasizing its role in response control.
-- Acknowledged no direct task link, like activating dorsomedial prefrontal cortex.
+### Temporal, Occipital, and Occipitotemporal Lobes
+These regions are primarily involved in visual processing. Their activation during the task underscores the participants' active engagement in perceiving and processing the visual stimuli, which is crucial for recognizing and responding to the presented arrows accurately.
+
+### Frontal Pole
+The frontal pole's activation suggests the involvement of higher-order cognitive processes during the task. This region may be responsible for decision-making and integrating information over time, contributing to efficient task performance when dealing with both congruent and incongruent stimuli.
+
+### Paracingulate Gyrus
+Activation in the paracingulate gyrus indicates that cognitive control and decision-making processes are at play. This region likely supports the participants in regulating their responses and making quick, accurate decisions based on the congruent and incongruent stimuli presented during the task.
+![image](https://github.com/user-attachments/assets/37670e95-9bc1-494d-9e2d-bc1e856cf1ee)
+
 
 ## Discussion
 
-The results revealed indirect relationships between confirmed clusters and the flanker task. The discussion interprets these findings in the context of existing literature and theoretical frameworks.
+In the confirmatory analysis, we explored two approaches to better understand the brain's activation patterns: the use of atlas-based masks and more localized spherical masks.
+
+From the initial analysis using atlas-based masks, COPE 1 and COPE 2 both exhibited p-values below the significance threshold, indicating statistically significant activation. Specifically, COPE 1 had a p-value of 0.00066, and COPE 2 had a p-value of 0.016, both allowing us to reject the null hypothesis. However, COPE 3 showed a higher p-value, suggesting no significant activation. This result is likely due to the inclusion of large portions of the brain that are inactive or unrelated to the task, leading to an averaging effect that masks true activations.
+
+To address this issue, we shifted to a more precise analysis using spherical masks centered around specific peak activation voxels. We identified the peak voxel at MNI coordinates (0, 20, 44) and generated a 7mm radius sphere mask to localize the region of interest. Using this targeted approach, we observed that the p-values for all COPEs were below the significance threshold, allowing us to reject the null hypothesis in each case. This refined method captures more relevant activations by focusing on specific, task-related brain regions, leading to more accurate results.
+![image](https://github.com/user-attachments/assets/8c772a83-d319-4990-8db1-42dfb346a8e3)
+
+
+Moreover, when using the weighted approach for creating the sphere, the averaged Z-statistics for the 26 subjects increased, reflecting a better capture of true activations. By weighting each voxel by its probability of activation, we enhanced the detection of task-relevant signals, allowing higher-probability voxels to contribute more significantly to the overall estimate. This contrasts with binarized masks, where less relevant voxels may dilute the effect.
+
+The presence of widespread negative Z-values during the analysis indicates deactivation in regions not directly involved in task processing. This deactivation aligns with the notion that task-irrelevant areas, such as those in the default mode network, reduce their activity to allow the brain to allocate resources more efficiently to task-related processes.
+
+In conclusion, using localized sphere masks and weighted approaches provided a more accurate representation of brain activity, reducing the influence of unrelated regions and improving the detection of true task-specific activations. This highlights the importance of precise targeting and analysis methods in functional neuroimaging studies.
 
 ## Conclusion
 
