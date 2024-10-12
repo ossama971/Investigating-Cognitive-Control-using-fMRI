@@ -1,3 +1,4 @@
+#!/bin/bash
 for id in `seq -w 1 26` ; do
     subj="sub-$id"
     echo "===> Starting processing of $subj"

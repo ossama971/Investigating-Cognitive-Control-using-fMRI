@@ -1,4 +1,4 @@
-
+#!/bin/bash
 for i in `seq -w 1 26`
 do
 echo $i
